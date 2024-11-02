@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+  <html lang="uk">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Зміна кольору фону при натисканні</title>
+      <style>
+          /* Основний стиль посилання */
+          a {
+              display: inline-block;
+              text-decoration: none;
+              padding: 10px 20px;
+              background-color: #4A90E2; /* Початковий фон */
+              color: white;
+              border-radius: 5px;
+              transition: background-color 0.3s ease;
+          }
+  
+          /* Зміна кольору при наведенні миші */
+          a:hover {
+              background-color: #003366;
+          }
+  
+          /* Зміна кольору при натисканні */
+          a:active {
+              background-color: #ff6347; /* Червоний фон при натисканні */
+          }
+      </style>
+  </head>
+  <body>
+      
+      <p>
+          <a href="#">Натисни на мене</a>
+      </p>
+  
+  </body>
+  </html>
+

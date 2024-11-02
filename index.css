@@ -1,0 +1,148 @@
+
+/* головна сторінка */
+#index {
+    background: rgba(245, 225, 255, 0.962);
+}
+h1 {
+    font-family: 'Cambria Math', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.main-heading {
+    font-family: 'Cambria Math', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #0e021f;
+    margin-bottom: 20px;
+}
+.zodiac-image {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 3px 4px 10px rgba(84, 7, 125, 0.76);
+}
+ .zodiac-image   {
+    opacity: 0; /* Початкова прозорість зображення */
+    transition: opacity 2s ease-in; /* Плавний перехід прозорості */
+}
+.zodiac-image.show {
+    opacity: 1; /* Коли клас 'show' доданий, прозорість стає 1 */
+}
+.menu-list {
+    font-size: 30px;
+    list-style-type: decimal;
+    padding-left: 50px;
+}
+.menu-list li {
+    margin-bottom: 20px;
+}
+.menu-list a {
+    font-family: 'Cambria Math', sans-serif;
+    text-decoration: none ;
+    color: #600d9c;
+    font-weight: bold;
+}
+.menu-list a:hover {
+    text-decoration: underline;
+}
+/* козеріг */
+
+.heading {
+    font-family: 'Cambria Math', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    color: #0e021f;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgb(209, 130, 236);
+}
+.image-container {
+    text-align: center;
+}
+.image-container img {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 9px rgba(66, 21, 91, 0.76);
+   
+}
+.text {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 25px;
+    color: #140322;      
+    font-family: 'Cambria Math', sans-serif;
+  
+      
+}
+.zodiac-table {
+    border: 3px solid #250b3f;
+    width: 25%;
+    text-align: left;
+
+}
+.zodiac-table td {
+    padding: 10px;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Cambria Math', sans-serif;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#kozerig {
+    background: rgba(245, 225, 255, 0.962);
+   
+
+}
+/* характеристика */
+#characteristics {
+ background: rgba(245, 225, 255, 0.962);
+ font-family: 'Cambria Math', sans-serif;
+ color: rgb(0, 0, 0);
+}
+.list {
+    font-size: 17px;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Cambria Math', sans-serif;
+ color: rgb(0, 0, 0);
+}
+
+/* елементи в один рядок */
+.list li {
+    display: inline;
+    margin-right: 60px;
+}
+
+/* посилання у меню */
+.list li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    background-color: #c683e3;
+    border-radius: 5px;
+}
+
+/* фон при наведенні миші */
+.list li a:hover {
+    background-color: #ff81db;
+    color: rgb(252, 239, 255);
+}
+.list li a:active {
+    background-color: #4c008f; /*фон при натисканні */
+}
+#back {
+    background-color: #e7b3e7;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#back:hover {
+
+ background-color: #c292ef;
+    color: rgb(255, 255, 255);
+}
+
+
+

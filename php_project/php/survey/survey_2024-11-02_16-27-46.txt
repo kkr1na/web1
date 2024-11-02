@@ -1,0 +1,7 @@
+{
+    "name": "каріна",
+    "email": "shkvyra.karina@gmail.com",
+    "color": "Червоний",
+    "interests": "волейбол\r\n",
+    "age": "17"
+}
